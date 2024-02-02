@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class CalculatorServiceIml implements CalculatorService{
 
-
     @Override
     public String welcome() {
         return "Добро пожаловать в калькулятор!";

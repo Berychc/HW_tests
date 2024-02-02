@@ -13,4 +13,5 @@ public interface CalculatorService {
     int multiply(Integer num1, Integer num2) throws NoValuesException;
 
     int divide(Integer num1, Integer num2) throws DivisionError, NoValuesException, DivisionError;
+
 }
